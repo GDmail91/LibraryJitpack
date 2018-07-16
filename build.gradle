@@ -28,6 +28,9 @@ buildscript {
     repositories {
         jcenter()
         maven { url "https://jitpack.io" }
+        flatDir {
+            dirs 'libs'
+        }
     }
     dependencies {
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
@@ -43,5 +46,8 @@ dependencies {
 allprojects {
     repositories {
         maven { url 'https://jitpack.io' }
+        flatDir {
+            dirs 'libs'
+        }
     }
 }
