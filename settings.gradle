@@ -16,4 +16,4 @@ include 'services:webservice'
 */
 
 rootProject.name = 'LibraryJitpack'
-include ':imqa-mpm-client-1.3.1-DEBUG'
+//include ':imqa-mpm-client-1.3.1-DEBUG'
