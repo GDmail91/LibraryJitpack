@@ -17,7 +17,7 @@ allprojects {
 }
 
 dependencies {
-    compile 'io.imqa:imqa-mpm-client:1.3.1-DEBUG@aar'
+    compile files('libs/app-debug.aar')
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
