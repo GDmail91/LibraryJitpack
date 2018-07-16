@@ -3,6 +3,11 @@
 apply plugin: 'com.android.library'
 //apply plugin: 'com.novoda.bintray-release'
 
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
 dependencies {
     compile files('libs/app-debug.aar')
 }
