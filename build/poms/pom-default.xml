@@ -14,9 +14,9 @@
   </licenses>
   <dependencies>
     <dependency>
-      <groupId>io.imqa</groupId>
-      <artifactId>imqa-mpm-client</artifactId>
-      <version>1.3.1-DEBUG</version>
+      <groupId>LibraryJitpack</groupId>
+      <artifactId>imqa-mpm-client-1.3.1-DEBUG</artifactId>
+      <version>unspecified</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
