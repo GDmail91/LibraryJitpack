@@ -1,11 +1,7 @@
 //apply plugin: 'java'
-apply plugin: 'maven'
+//apply plugin: 'maven'
 apply plugin: 'com.android.library'
-//apply plugin: 'com.github.dcendents.android-maven'
 //apply plugin: 'com.novoda.bintray-release'
-
-// 생성되는 파일 이름
-group = 'com.github.GDmail91'
 
 dependencies {
     compile files('libs/app-debug.aar')
@@ -36,3 +32,7 @@ android {
         }
     }
 }
+
+apply plugin: 'com.github.dcendents.android-maven'
+// 생성되는 파일 이름
+group = 'com.github.GDmail91'
