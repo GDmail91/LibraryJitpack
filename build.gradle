@@ -1,7 +1,7 @@
 
 
-apply plugin: 'java'
-//apply plugin: 'maven'
+//apply plugin: 'java'
+apply plugin: 'maven'
 
 apply plugin: 'com.github.dcendents.android-maven'
 // 생성되는 파일 이름
