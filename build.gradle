@@ -1,27 +1,18 @@
 
 
-//apply plugin: 'java'
-apply plugin: 'maven'
-
-apply plugin: 'com.github.dcendents.android-maven'
-// 생성되는 파일 이름
-group = 'com.github.GDmail91'
-
-
 buildscript {
     repositories {
+        google()
         maven {
             url 'https://maven.google.com/'
             name 'Google'
         }
-        flatDir {
-            dirs 'libs'
-        }
+        jcenter()
         maven { url 'https://jitpack.io' }
     }
     dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.3'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
-        classpath files('libs/app-debug.aar')
     }
 }
 
@@ -39,4 +30,3 @@ allprojects {
         }
     }
 }
-
