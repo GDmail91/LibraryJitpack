@@ -22,11 +22,3 @@ buildscript {
         classpath files('libs/app-debug.aar')
     }
 }
-repositories {
-    flatDir {
-        dirs 'libs'
-    }
-}
-dependencies {
-    runtime files('libs/app-debug.aar')
-}
